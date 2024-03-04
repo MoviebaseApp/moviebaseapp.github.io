@@ -1,0 +1,27 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.moviebase",
+      "sha256_cert_fingerprints": [
+        "F8:DC:30:D2:15:43:E0:69:3E:CA:5D:7D:B7:6A:40:B1:66:C1:75:97:12:8F:B9:F4:0B:4F:2A:14:C1:7E:C5:2A",
+        "5C:6A:17:A6:4D:88:4F:8B:D8:10:A6:46:4A:E4:A1:94:28:D4:B7:6B:86:45:59:67:E6:D1:47:77:EE:05:A6:07"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.moviebase.debug",
+      "sha256_cert_fingerprints": [
+        "44:9C:BE:B7:10:57:DB:88:9B:1B:98:0A:0C:46:B1:BC:EF:B7:8E:C1:76:5E:FF:57:07:64:06:65:AE:23:A5:21"
+      ]
+    }
+  }
+]
