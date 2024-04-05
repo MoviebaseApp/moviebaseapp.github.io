@@ -222,8 +222,8 @@ li.menu-item.get_apps a {
     align-items: start;
     justify-content: start;
     flex-direction: column;
-    padding-top: 60px;
-    padding-bottom: 300px;
+    padding-top: 80px;
+    padding-bottom: 400px;
 }
 
 .app_logo img {
