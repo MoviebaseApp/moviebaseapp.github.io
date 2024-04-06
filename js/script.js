@@ -4,6 +4,7 @@
         navMenu = document.querySelector(".nav-menu"),
         menuOverlay = document.querySelector(".menu-overlay"),
         header = document.querySelector(".header"),
+        installButton = document.querySelector(".install-button"),
         mediaSize = 991,
         // sticky srolling size
         scrollThreshold = 0;
@@ -70,5 +71,32 @@
         if (this.innerWidth > mediaSize) {
             resizeFix();
         }
+    });
+
+    // Android Smart Banner
+    let deferredPrompt;
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+    });
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+        installButton.style.display = 'block';
+    });
+
+    installButton.addEventListener('click', (e) => {
+        installButton.style.display = 'none';
+        deferredPrompt.prompt();
+        deferredPrompt.userChoice.then((choiceResult) => {
+            if (choiceResult.outcome === 'accepted') {
+                console.log('User accepted the A2HS prompt');
+            } else {
+                console.log('User dismissed the A2HS prompt');
+            }
+            deferredPrompt = null;
+        });
     });
 })();
