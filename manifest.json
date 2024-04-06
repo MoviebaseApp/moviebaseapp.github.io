@@ -1,0 +1,27 @@
+{
+  "name": "Moviebase",
+  "short_name": "Moviebase: Discover Movies & TV Shows",
+  "icons": [
+    {
+      "src": "/images/moviebase_app_icon_192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/moviebase_app_icon_512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "com.moviebase",
+      "url": "https://play.google.com/store/apps/details?id=com.moviebase"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "description": "Explore movies & TV shows from the TMDB. Get detailed insights and track your watched episodes with Trakt."
+}
