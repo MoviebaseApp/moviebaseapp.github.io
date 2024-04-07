@@ -198,10 +198,6 @@ li.menu-item.get_apps a {
     .header .logo {
         padding: 0 15px;
     }
-
-    .logo img {
-    }
-
 }
 
 .intro_content {
@@ -341,8 +337,8 @@ li.menu-item.get_apps a {
 
 .review_content {
     padding: 30px 40px 35px;
-    border-radius: 24px;
-    background-color: #fff;
+    /*border-radius: 24px;*/
+    /*background-color: #fff;*/
     margin-top: 30px;
 }
 
@@ -395,7 +391,7 @@ footer {
     }
 
     .promotion_screenshot img {
-        width: 60%;
+        width: 85%;
     }
 
     .remainder img {
@@ -418,6 +414,10 @@ footer {
         font-size: 18px;
         width: 50px;
         height: 50px;
+    }
+
+    .feature_area .label {
+        padding-top: 20px;
     }
 
     .feature_area p {
