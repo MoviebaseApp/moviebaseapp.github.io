@@ -4,6 +4,9 @@ body {
     line-height: 1.5;
     font-family: "Roboto", sans-serif;
     color: #333333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h5, a, p {
@@ -73,6 +76,24 @@ a {
     color: #000;
 }
 
+.primary_button {
+    width: auto;
+    display: inline-block;
+    background: #FB872B;
+    padding: 15px 80px;
+    font-weight: 500;
+    border-radius: 25px;
+    transition: 0.2s;
+}
+
+.primary_button:hover {
+    background: #1d1d1b;
+}
+
+.primary_button a {
+    color: #fff !important;
+}
+
 .header .nav-menu {
     padding: 0 15px;
 }
@@ -102,7 +123,6 @@ li.menu-item.get_apps {
 li.menu-item.get_apps:hover {
     background: #1d1d1b;
 }
-
 
 li.menu-item.get_apps a {
     color: #fff !important;
@@ -217,8 +237,7 @@ li.menu-item.get_apps a {
     align-items: start;
     justify-content: start;
     flex-direction: column;
-    padding-top: 80px;
-    padding-bottom: 400px;
+    padding-top: 40px;
 }
 
 .app_logo img {
@@ -365,7 +384,7 @@ footer {
     color: #BBBFC3;
     clear: both;
     position: relative;
-    margin-top: 80px
+    margin-top: auto;
 }
 
 .footer_menu {
@@ -493,4 +512,19 @@ footer {
 
 .faq_area .faq.active {
     border: none;
+}
+
+.not_found_area h1 {
+    padding-top: 60px;
+    font-weight: 800;
+    font-size: 92px;
+}
+
+.not_found_area h5 {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.not_found_area .primary_button {
+    margin-top: 40px;
 }
