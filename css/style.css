@@ -125,12 +125,12 @@ li.menu-item.get_apps a {
 }
 
 .header .open-nav-menu img {
-    width: 42px;
+    width: 32px;
 }
 
 .header .close-nav-menu {
-    height: 40px;
-    width: 40px;
+    height: 48px;
+    width: 48px;
     background-color: #ffffff;
     margin: 0 0 15px 15px;
     cursor: pointer;
@@ -140,7 +140,7 @@ li.menu-item.get_apps a {
 }
 
 .header .close-nav-menu img {
-    width: 24px;
+    width: 32px;
 }
 
 .header .menu-overlay {
