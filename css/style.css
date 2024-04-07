@@ -90,6 +90,7 @@ a {
     font-weight: 500;
     transition: all 0.3s ease;
 }
+
 li.menu-item.get_apps {
     background: #FB872B;
     padding: 10px 20px;
@@ -441,4 +442,55 @@ footer {
     li.menu-item.get_apps a:hover {
         color: #FB872B !important;
     }
+}
+
+.faq_area .accordion {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    width: 100%;
+    padding: 1rem 1rem;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.faq_area .accordion i {
+    font-size: 1.4rem;
+}
+
+.faq_area .active,
+.accordion:hover {
+    background-color: #F5F5F5FF;
+}
+
+.faq_area .pannel {
+    padding: 0 2rem 2.5rem 2rem;
+    background-color: white;
+    overflow: hidden;
+    background-color: #F5F5F5FF;
+    display: none;
+}
+
+.faq_area a {
+    text-decoration: underline;
+    color: #FB872B
+}
+
+.faq_area .pannel p {
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 1.4;
+}
+
+.faq_area .faq {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+}
+
+.faq_area .faq.active {
+    border: none;
 }
